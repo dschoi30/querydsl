@@ -516,7 +516,7 @@ public class QuerydslBasicTest {
     }
 
     @Test
-    public void findDyoByField() {
+    public void findDtoByField() {
         List<MemberDto> result = queryFactory
                 .select(Projections.fields(MemberDto.class,
                         member.username,
